@@ -13,21 +13,21 @@ int main(void)
 
 	// Variable Decleration
 	char menuInput[100];
-	char timetableFN[100];
 	char enterCode[100];
+	char importMenu[100];
 
-	FILE* timetableFP = NULL;
+	FILE *timetableDataFP = NULL;
 
 	bool validClasses = false;
 	bool loopMenu = true;
+	bool loopMenu2 = true;
 
 	printf("Welcome to the Guelph Class Checker!\n");
 	printf("This program will determine if you have any classes with a peer!\n");
-	printf("Please have a picture of your timetable saved in the same directory as this program!\n\n");
 	
 	while(loopMenu == true) {
 
-		printf("\n'Import' - Import a picture of your timetable (Needs to be done in order to generate code)\n");
+		printf("'Import' - Import your timetable classes (Needs to be done in order to generate code)\n");
 		printf("'Generate' - Generate a shareable code that you can give to others to check classes you have together\n");
 		printf("'Enter' - Enter a friend's generated code to see what classes you have!\n");
 		printf("'Exit' - Exit the program\n");
@@ -36,12 +36,34 @@ int main(void)
 		removeNewline(menuInput);
 
 		if(strcmp(menuInput, "Import") == 0) {
-			printf("\nPlease make sure the picture of your timetable is in the same directory as this program!\n");
-			printf("What is the name of the photo file containing your timetable?\n");
-			printf("File Name: ");
-			fgets(timetableFN, sizeof(timetableFN), stdin);
-			removeNewline(timetableFN);
-			// Use openCV stuff to open timetable and process it
+			printf("\nCopy and Paste your timetable into the text file 'timetableData.txt' in this directory!\n");
+			printf("If the text file 'timetableData.txt' contains your class data, and is saved, type 'Ready'\n");
+			printf("If you want a step by step and video demonstration of what to do, type 'Help'\n");
+			
+			while(loopMenu2 == true) {
+				printf("Enter 'Ready' or 'Help': ");
+				fgets(importMenu, sizeof(importMenu), stdin);
+				removeNewline(importMenu);
+
+				if(strcmp(importMenu, "Help") == 0) {
+					printf("Navigate to the Class Schedule Grid screen that can be found on webadvisor.\n");
+					printf("Click and drag from the 'Class Schedule Grid' title text, all the way down to the end of your name.\n");
+					printf("Copy the selected text (ctrl/cmmnd + C OR right click and select'copy'.)\n");
+					printf("Navigate to the folder this program is contained in.\n");
+					printf("Open the file 'timetableData.txt'\n");
+					printf("Paste the contents into the empty file.\n");
+					printf("Save the file (ctrl/cmmnd + S OR click file>save)\n");
+					printf("That is it!\n");
+					printf("If you would like to see a graphical representation, open the file 'timetableHelp'!\n");
+
+				}	
+				else if(strcmp(importMenu, "Ready") == 0) {
+					// Process text file
+				}
+				else {
+					printf("Invalid Option! Try Again.\n")
+				}
+			}
 
 		}
 		else if(strcmp(menuInput, "Generate") == 0) {
