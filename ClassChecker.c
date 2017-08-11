@@ -22,8 +22,8 @@ int main(void)
 	bool loopMenu = true;
 	bool loopMenu2 = true;
 
-	printf("Welcome to the Guelph Class Checker!\n");
-	printf("This program will determine if you have any classes with a peer!\n");
+	printf("\nWelcome to the Guelph Class Checker!\n");
+	printf("This program will determine if you have any classes with a peer!\n\n");
 	
 	while(loopMenu == true) {
 
@@ -36,7 +36,11 @@ int main(void)
 		removeNewline(menuInput);
 
 		if(strcmp(menuInput, "Import") == 0) {
-			printf("\nCopy and Paste your timetable into the text file 'timetableData.txt' in this directory!\n");
+
+			timetableDataFP = fopen("timetableData.txt", "w");
+			fclose(timetableDataFP);
+
+			printf("\nCopy and Paste your timetable data into the text file 'timetableData.txt' in this directory!\n");
 			printf("If the text file 'timetableData.txt' contains your class data, and is saved, type 'Ready'\n");
 			printf("If you want a step by step and video demonstration of what to do, type 'Help'\n");
 			
@@ -46,22 +50,25 @@ int main(void)
 				removeNewline(importMenu);
 
 				if(strcmp(importMenu, "Help") == 0) {
-					printf("Navigate to the Class Schedule Grid screen that can be found on webadvisor.\n");
+					printf("\nNavigate to the Class Schedule Grid screen that can be found on webadvisor.\n");
 					printf("Click and drag from the 'Class Schedule Grid' title text, all the way down to the end of your name.\n");
 					printf("Copy the selected text (ctrl/cmmnd + C OR right click and select'copy'.)\n");
 					printf("Navigate to the folder this program is contained in.\n");
 					printf("Open the file 'timetableData.txt'\n");
 					printf("Paste the contents into the empty file.\n");
-					printf("Save the file (ctrl/cmmnd + S OR click file>save)\n");
+					printf("Save the file (ctrl/cmmnd + S OR click file > save)\n");
 					printf("That is it!\n");
-					printf("If you would like to see a graphical representation, open the file 'timetableHelp'!\n");
+					printf("If you would like to see a graphical representation, open the file 'timetableHelp'!\n\n");
 
 				}	
 				else if(strcmp(importMenu, "Ready") == 0) {
-					// Process text file
+					
+					
+					
+					loopMenu2 = false;
 				}
 				else {
-					printf("Invalid Option! Try Again.\n")
+					printf("Invalid Option! Try Again.\n");
 				}
 			}
 
