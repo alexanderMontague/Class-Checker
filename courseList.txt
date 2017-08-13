@@ -35,7 +35,6 @@ ANSC*2330 Horse Management Science F (3-0) [0.50]]
 ANSC*2340 Structure of Farm Animals W (3-1) [0.50]
 ANSC*3040 Animal Reproduction W (3-3) [0.50]
 ANSC*3050 Aquaculture: Advanced Issues F (3-0) [0.50]
-ZOO*2090
 ANSC*3080 Agricultural Animal Physiology F (3-1.5) [0.50]
 ANSC*3120 Introduction to Animal Nutrition F (3-2) [0.50]
 ANSC*3170 Nutrition of Fish and Crustacea W (3-0) [0.50]
@@ -65,7 +64,6 @@ ANTH*2660 Contemporary Native Peoples of Canada W (3-0) [0.50]
 ANTH*3400 The Anthropology of Gender W (3-0) [0.50]
 ANTH*3650 Prehistory of Canadian Native Peoples F (3-0) [0.50]
 ANTH*3670 Indigenous Peoples: Global Context W (3-0) [0.50]
-IDEV*2010 , IDEV*2500), SOAN*2120
 ANTH*3690 Engaging Anthropological Theory F (3-0) [0.50]
 ANTH*3770 Kinship, Family, and Power W (3-0) [0.50]
 ANTH*3840 Seminar in Anthropology F,W (3-0) [0.50]
@@ -129,7 +127,6 @@ ASCI*3100 Case Studies in Arts and Sciences Research W (3-0) [0.50]
 ASCI*3200 Issues in Public Health S (3-0) [0.50]
 ASCI*3700 Independent Studies in Arts/Sciences S,F,W (3-0) [0.50]
 ASCI*4010 Arts and Sciences Honours Research Seminar W (3-0) [1.00]
-ASCI*3700); cumulative average of 75%
 ASCI*4020 Topics in Arts and Sciences Research F,W (3-0) [0.50]
 ASCI*4030 Topics in Arts and Sciences Research F,W (3-0) [0.50]
 ASCI*4700 Independent Studies in Arts/Sciences S,F,W (3-0) [0.50]
@@ -152,7 +149,6 @@ BIOL*3010 Laboratory and Field Work in Ecology F (0-6) [0.50]
 BIOL*3020 Population Genetics F (3-2) [0.50]
 BIOL*3040 Methods in Evolutionary Biology W (2-2) [0.50]
 BIOL*3060 Populations, Communities & Ecosystems W (4-0) [0.50]
-STAT*2060, STAT*2230)
 BIOL*3130 Conservation Biology W (3-0) [0.50]
 BIOL*3300 Applied Bioinformatics W (3-2) [0.50]
 BIOL*3450 Introduction to Aquatic Environments F (3-0) [0.50]
@@ -171,26 +167,19 @@ BIOL*4800 Field Biology S,F,W (1-6) [0.50]
 BIOL*4810 Field Biology S,F,W (1-6) [0.25]
 BIOL*4900 Field Biology S,F,W (1-6) [0.50]
 BIOM*2000 Concepts in Human Physiology S,F,W (3-0) [0.50]
-ZOO*3210 , ZOO*3600 Not available to BSC Students in biological
 BIOM*3000 Functional Mammalian Neuroanatomy W (3-2) [0.50]
-PSYC*2410, ZOO*3200 , ZOO*3600
 BIOM*3010 Biomedical Comparative Anatomy F (2-3) [0.50]
 BIOM*3040 Medical Embryology W (3-3) [0.75]
-HK*3940 ), (1of BIOM*3010, HK*3401, HK*3501, ZOO*2090)
 BIOM*3090 Principles of Pharmacology S,F,W (3-0) [0.50]
-ZOO*3200 , ZOO*3600)
 BIOM*3200 Biomedical Physiology S,F,W (6-0) [1.00]
 BIOM*3210 Critical Thinking in the Health Sciences F (3-0) [0.50]
 BIOM*4030 Endocrine Physiology W (3-0) [0.50]
 BIOM*4050 Biomedical Aspects of Aging W (3-0) [0.50]
 BIOM*4070 Biomedical Histology F (2-3) [0.50]
-HK*3810, HK*3940 )
 BIOM*4090 Pharmacology S,F,W (3-0) [0.50]
 BIOM*4110 Mammalian Reproductive Biology W (2-2) [0.50]
-BIOM*3200, HK*3810, HK*3940 , ZOO*3210 , ZOO*3620),
 BIOM*4150 Cancer Biology W (5-0) [0.50]
 BIOM*4180 Cardiology W (3-0) [0.50]
-HK*3501, ZOO*2090)
 BIOM*4300 Biomedical Communications F (3-0) [0.50]
 BIOM*4500 Literature-based Research in Biomedical Sciences S,F,W (0-6) [0.50]
 BIOM*4510 Research in Biomedical Sciences S,F,W (0-12) [1.00]
@@ -212,14 +201,12 @@ CHEM*1050 General Chemistry II F,W (3-3) [0.50]
 CHEM*1060 Introductory Chemistry F (3-0) [0.50]
 CHEM*1100 Chemistry Today W (3-0) [0.50]
 CHEM*2060 Structure and Bonding F (3-1.5) [0.50]
-PHYS*1070, PHYS*1300))]
 CHEM*2070 Structure and Spectroscopy S,W (3-1.5) [0.50]
 CHEM*2400 Analytical Chemistry I S,F,W (3-6) [0.75]
 CHEM*2480 Analytical Chemistry I S,F,W (3-3) [0.50]
 CHEM*2700 Organic Chemistry I S,W (3-3) [0.50]
 CHEM*2820 Thermodynamics and Kinetics F (3-3) [0.50]
 CHEM*2880 Physical Chemistry F (3-1.5) [0.50]
-MATH*1200)
 CHEM*3360 Environmental Chemistry and Toxicology S,W (3-0) [0.50]
 CHEM*3430 Analytical Chemistry II: Instrumental Analysis S,W (3-3) [0.50]
 CHEM*3440 Analytical Chemistry III: Analytical Instrumentation F (3-3) [0.50]
@@ -230,7 +217,6 @@ CHEM*3760 Organic Chemistry III W (3-3) [0.50]
 CHEM*3860 Quantum Chemistry F (3-1) [0.50]
 CHEM*3870 Molecular Spectroscopy W (3-3) [0.50]
 CHEM*4010 Chemistry and Industry W (3-0) [0.50]
-MATH*1210, MATH*2080)
 CHEM*4400 Advanced Topics in Analytical Chemistry W (3-0) [0.50]
 CHEM*4620 Advanced Topics in Inorganic Chemistry F (3-0) [0.50]
 CHEM*4630 Bioinorganic Chemistry W (3-0) [0.50]
@@ -239,8 +225,6 @@ CHEM*4730 Synthetic Organic Chemistry F (3-0) [0.50]
 CHEM*4740 Topics in Bio-Organic Chemistry F (3-0) [0.50]
 CHEM*4880 Topics in Advanced Physical Chemistry W (3-0) [0.50]
 CHEM*4900 Chemistry Research Project I S,F,W (0-12) [1.00]
-CHEM*3640, CHEM*3650, CHEM*3750, CHEM*3760,
-CHEM*3870)
 CHEM*4910 Chemistry Research Project II S,F,W (0-12) [1.00]
 CHIN*1200 Introductory Chinese I F (3-0) [0.50]
 CHIN*1210 Introductory Chinese II W (3-0) [0.50]
@@ -268,8 +252,6 @@ CLAS*3100 Religion in Greece and Rome F (3-0) [0.50]
 CLAS*3120 Religion in Greece and Rome (in Latin) F (6-0) [1.00]
 CLAS*3150 Space: Roman Art and Urbanism W (3-0) [0.50]
 CLAS*3300 Directed Reading in Greek or Latin U (3-0) [0.50]
-CLAS*4000)], or [GREK*2020, (1 of CLAS*3000, CLAS*3020,
-CLAS*3030, CLAS*3040)]
 CLAS*3700 Experiential Learning and Language S,F,W (0-0) [0.50]
 CLAS*4000 Novel and Romance in Antiquity F (3-0) [0.50]
 CLAS*4010 Novel and Romance in Antiquity (in Latin) F (6-0) [1.00]
@@ -331,7 +313,6 @@ CROP*3300 Grain Crops W (3-0) [0.50]
 CROP*3310 Protein and Oilseed Crops F (3-0) [0.50]
 CROP*3340 Managed Grasslands W (3-2) [0.50]
 CROP*4220 Cropping Systems W (3-2) [0.50]
-ENVS*3080, ENVS*4090, SOIL*3080 , SOIL*4090 )
 CROP*4240 Weed Science F (3-3) [0.50]
 CROP*4260 Crop Science Field Trip F (0-4) [0.50]
 ECON*1050 Introductory Microeconomics S,F,W (3-0) [0.50]
@@ -340,30 +321,19 @@ ECON*2000 Economic Problems in Canada U (3-0) [0.50]
 ECON*2100 Economic Growth and Environmental Quality F (3-0) [0.50]
 ECON*2200 Industrial Relations F (3-0) [0.50]
 ECON*2310 Intermediate Microeconomics S,F,W (3-1) [0.50]
-MATH*1200)
 ECON*2410 Intermediate Macroeconomics S,F,W (3-1) [0.50]
-MATH*1200)
 ECON*2420 Canadian Economic History U (3-0) [0.50]
 ECON*2560 Theory of Finance F,W (3-0) [0.50]
-MATH*1200), (1 of ECON*2740, PSYC*1010, PSYC*2010 ,
-SOAN*2120, STAT*2040, STAT*2060, STAT*2080, STAT*2120)
 ECON*2650 Introductory Development Economics F (3-0) [0.50]
 ECON*2720 Business History W (3-0) [0.50]
 ECON*2740 Economic Statistics F,W (3-1) [0.50]
-ECON*2560, Theory of Finance and ECON*3740, Introduction to Econometrics. Topics
-MATH*1030, MATH*1050 , MATH*1080, MATH*1200)
 ECON*2770 Introductory Mathematical Economics F,W (3-1) [0.50]
-MATH*1030, MATH*1080, MATH*1200)
 ECON*3100 Game Theory W (3-1) [0.50]
 ECON*3300 Economics of Health and the Workplace U (3-0) [0.50]
-STAT*2050, STAT*2060, STAT*2080, STAT*2090, STAT*2100 ,
-STAT*2120)
 ECON*3360 The Strategy of Mergers and Acquisitions F (3-0) [0.50]
 ECON*3400 The Economics of Personnel Management U (3-0) [0.50]
 ECON*3500 Urban Economics U (3-0) [0.50]
 ECON*3520 Labour Economics U (3-0) [0.50]
-STAT*2050, STAT*2060, STAT*2080, STAT*2090, STAT*2100 ,
-STAT*2120)
 ECON*3530 Industrial Organization U (3-0) [0.50]
 ECON*3580 Economics of Regulation U (3-0) [0.50]
 ECON*3610 Public Economics U (3-0) [0.50]
@@ -372,37 +342,28 @@ ECON*3660 Economics of Equity Markets U (3-0) [0.50]
 ECON*3710 Advanced Microeconomics F,W (3-1) [0.50]
 ECON*3730 The Origins of International Inequality U (3-0) [0.50]
 ECON*3740 Introduction to Econometrics F,W (3-1) [0.50]
-STAT*2060, STAT*2080), (ECON*2770 or MATH*1210)
 ECON*3760 Fundamentals of Derivatives W (3-0) [0.50]
 ECON*3810 Advanced Macroeconomics W (3-0) [0.50]
-MATH*1210)
 ECON*3860 International Finance F (3-0) [0.50]
 ECON*3960 Money, Credit and the Financial System U (3-0) [0.50]
 ECON*4400 Economics of Organizations and Corporate Governance U (3-0) [0.50]
 ECON*4500 Topics in Urban Economics U (3-0) [0.50]
 ECON*4560 Advanced Topics in Finance U (3-0) [0.50]
-ECON*3770 , ECON*3810, ECON*4700), ECON*3740, (2 of
-ECON*3360, ECON*3510 , ECON*3660, ECON*3760, FARE*4240,
-ECON*3860, ECON*3960)
 ECON*4640 Applied Econometrics I F (3-0) [0.50]
 ECON*4660 Risk Management in Finance and Insurance U (3-0) [0.50]
-ECON*3860, ECON*3960, FARE*4240)
 ECON*4700 Advanced Mathematical Economics F (3-1) [0.50]
 ECON*4710 Advanced Topics in Microeconomics F (3-0) [0.50]
 ECON*4720 Topics in Economic History U (3-0) [0.50]
 ECON*4750 Topics in Public Economics U (3-0) [0.50]
 ECON*4760 Topics in Monetary Economics U (3-0) [0.50]
-ECON*3710, ECON*3960)
 ECON*4780 Topics in Industrial Organization U (3-0) [0.50]
 ECON*4790 Topics in Labour Market Theory U (3-0) [0.50]
 ECON*4800 Competitiveness and Strategic Advantage U (3-0) [0.50]
-ECON*2310, (ECON*2560 or ECON*3560 )
 ECON*4810 Advanced Topics in Macroeconomics W (3-0) [0.50]
 ECON*4830 Economic Development U (3-0) [0.50]
 ECON*4840 Applied Econometrics II W (3-0) [0.50]
 ECON*4860 Seminar in Current Economic Problems U (3-0) [0.50]
 ECON*4880 Topics in International Economics U (3-0) [0.50]
-ECON*3620)
 ECON*4890 History of Economic Thought U (3-0) [0.50]
 ECON*4900 Special Study in Economics S,F,W (3-0) [0.50]
 ECON*4910 Special Study in Economics S,F,W (3-0) [0.50]
@@ -457,7 +418,6 @@ ENGG*3250 Energy Management & Utilization W (3-2) [0.50]
 ENGG*3260 Thermodynamics F (3-2) [0.50]
 ENGG*3280 Machine Design F (3-3) [0.75]
 ENGG*3340 Geographic Information Systems in Environmental Engineering F
-MATH*1200)
 ENGG*3370 Applied Fluids and Thermodynamics W (3-2) [0.50]
 ENGG*3380 Computer Organization and Design W (3-2) [0.50]
 ENGG*3390 Signal Processing F (3-2) [0.50]
@@ -469,7 +429,6 @@ ENGG*3490 Introduction to Mechatronic Systems Design W (3-2) [0.75]
 ENGG*3510 Electromechanical Devices F (3-3) [0.50]
 ENGG*3570 MEMS and Microfabrication F (3-2) [0.50]
 ENGG*3590 Water Quality F (3-3) [0.50]
-MICR*1020 , MICR*2420), STAT*2120
 ENGG*3640 Microcomputer Interfacing F (3-3) [0.50]
 ENGG*3650 Hydrology F (3-1) [0.50]
 ENGG*3670 Soil Mechanics F (3-2) [0.50]
@@ -521,20 +480,15 @@ ENGG*4720 Physical Design Automation W (3-2) [0.50]
 ENGG*4760 Biological Wastewater Treatment Design W (3-2) [0.50]
 ENGG*4770 Physical & Chemical Water and Wastewater Treatment Design F (3-2)
 ENGG*4810 Control of Atmospheric Particulates F (3-2) [0.50]
-MATH*2130
 ENGG*4820 Atmospheric Emission Control: Combustion Systems W (3-2) [0.50]
-ENGL*2130, ENGL*3940, ENGL*3960, preferably in their 3rd, 4th, 5th and 6th
 ENGL*2080 is a pre-requisite to ENGL*3940 and ENGL*3960.
 ENGL*2080 plus one of ENGL*2120, ENGL*2130 plus one of ENGL*3940,
-ENGL*3960.
 ENGL*1030 Effective Writing S,F,W (3-0) [0.50]
 ENGL*1080 Literatures in English I: Reading the Past F,W (3-0) [0.50]
-ENGL*2080, are required for a major or minor in English. Students are encouraged to
 ENGL*1200 Reading the Contemporary World F,W (3-0) [0.50]
 ENGL*1410 Major Writers U (3-0) [0.50]
 ENGL*2040 Latina/o Literature and Cultural Production: Intro F (3-0) [0.50]
 ENGL*2080 Literatures in English II: Finding a Critical Voice F,W (3-0) [0.50]
-ENGL*1080.
 ENGL*2120 Seminar: Critical Practices F,W (3-0) [0.50]
 ENGL*2130 Seminar: Literature and Social Change F,W (3-0) [0.50]
 ENGL*2190 Representation and Sexuality W (3-0) [0.50]
@@ -583,42 +537,26 @@ ENGL*3880 Topics in Literary and Cultural Studies U (3-0) [0.50]
 ENGL*3940 Seminar: Form, Genre, and Literary Value F,W (3-0) [0.50]
 ENGL*3960 Seminar: Literature in History F,W (3-0) [0.50]
 ENGL*4240 Medieval & Early Modern Literatures U (3-0) [1.00]
-ENGL*3960)
 ENGL*4250 18th- & 19th-C Literatures U (3-0) [1.00]
-ENGL*3960)
 ENGL*4270 United States Literatures U (3-0) [1.00]
-ENGL*3960)
 ENGL*4280 Canadian Literatures U (3-0) [1.00]
-ENGL*3960)
 ENGL*4310 Special Studies in English U (3-0) [1.00]
-ENGL*3960)
 ENGL*4320 Special Studies in English U (3-0) [1.00]
-ENGL*3960)
 ENGL*4400 Postcolonial Literatures U (3-0) [1.00]
-ENGL*3960)
 ENGL*4410 Modern & Contemporary Literatures U (3-0) [1.00]
-ENGL*3960)
 ENGL*4420 Women's Writings U (3-0) [1.00]
-ENGL*3960)
 ENGL*4500 Non-fiction Prose U (3-0) [1.00]
-ENGL*3960)
 ENGL*4720 Creative Writing: Prose/Poetry F,W (3-0) [1.00]
-ENGL*3070, ENGL*3090
 ENGL*4810 Directed Reading S,F,W (3-0) [0.50]
-ENGL*3960)
 ENGL*4880 20th- & 21st-Century Poetry U (3-0) [1.00]
-ENGL*3960)
 ENGL*4890 Contemporary Literary Theory U (3-0) [1.00]
-ENGL*3960)
 ENGL*4910 Honours English Essay S,F,W (3-0) [0.50]
 ENGL*4910 for creative writing, on the approval of the instructor.
-ENGL*3960)
 ENVM*3500 Environmental Management Integrated Project W (5-0) [1.00]
 ENVS*1030 Introduction to Environmental Sciences F (6-0) [1.00]
 ENVS*1060 Principles of Geology S,F,W (3-0) [0.50]
 ENVS*1100 Fundamentals of Environmental Sciences F (3-0) [0.50]
 ENVS*2030 Meteorology and Climatology F (3-2) [0.50]
-PHYS*1080, PHYS*1130
 ENVS*2040 Plant Health and the Environment W (3-0) [0.50]
 ENVS*2060 Soil Science S,F (3-2) [0.50]
 ENVS*2070 Environmental Perspectives and Human Choices F (3-0) [0.50]
@@ -629,20 +567,16 @@ ENVS*2210 Apiculture and Honey Bee Biology F,W (3-0) [0.50]
 ENVS*2230 Communications in Environmental Science F,W (4-0) [0.50]
 ENVS*2240 Fundamentals of Environmental Geology F (2-3) [0.50]
 ENVS*2250 Geology of Natural Disasters S,W (3-0) [0.50]
-GEOG*1300, GEOG*1350
 ENVS*2270 Impacts of Climate Change F,W (3-0) [0.50]
 ENVS*2310 Earth Surface Processes F (4-0) [0.50]
 ENVS*2330 Current Issues in Ecosystem Science and Biodiversity F (4-0) [0.50]
-ENVS*1030
 ENVS*2340 Current Issues in Agriculture and Landscape Management W (4-0)
-ENVM*1200 , ENVS*1030, ENVS*2330)]
 ENVS*3000 Nature Interpretation F,W (2-3) [0.50]
 ENVS*3010 Climate Change Biology S,F (3-0) [0.50]
 ENVS*3020 Pesticides and the Environment F,W (3-0) [0.50]
 ENVS*3030 Conservation Field Course F (0-6) [0.50]
 ENVS*3040 Natural Chemicals in the Environment F (3-0) [0.50]
 ENVS*3050 Microclimatology W (3-0) [0.50]
-ENVS*2020 , ENVS*2030, MET*2020 , MET*2030 , GEOG*2110)
 ENVS*3060 Groundwater W (3-0) [0.50]
 ENVS*3080 Soil and Water Conservation F (3-0) [0.50]
 ENVS*3090 Insect Diversity and Biology W (3-3) [0.50]
@@ -667,12 +601,10 @@ ENVS*3520 Independent Study II S,F,W (0-6) [0.50]
 ENVS*3530 Independent Study S,F,W (0-12) [1.00]
 ENVS*4001 Project in Environmental Sciences F (3-0) [0.50]
 ENVS*4001/2 Project in Environmental Sciences F-W (3-0) [1.00]
-ENVS*4001 until ENVS*4002 is completed.
 ENVS*4002 Project in Environmental Sciences W (3-0) [0.50]
 ENVS*4070 Pollinator Conservation W (3-0) [0.50]
 ENVS*4090 Soil Management F (3-1) [0.50]
 ENVS*4100 Integrated Management of Invasive Insect Pests W (3-3) [0.50]
-ENVS*2040, ENVS*3090, HORT*3280, HORT*3350 , HORT*3510
 ENVS*4160 Soil and Nutrient Management F (4-3) [0.50]
 ENVS*4180 Insecticide Biological Activity and Resistance W (4-0) [0.50]
 ENVS*4190 Biological Activity of Herbicides W (3-0) [0.50]
@@ -684,10 +616,8 @@ ENVS*4350 Forest Ecology F (3-3) [0.50]
 ENVS*4360 Glacial Environments W (4-0) [0.50]
 ENVS*4370 Environmental Organic Chemistry W (3-0) [0.50]
 ENVS*4390 Soil Variability and Land Evaluation F (3-2) [1.00]
-ENVS*2340, SOIL*2010 )
 ENVS*4410 Advanced Independent Research I S,F,W (0-12) [1.00]
 ENVS*4420 Advanced Independent Research II S,F,W (0-12) [1.00]
-ENVS*4410, or it may be used to gain experience in a different research area. Students
 ENVS*4430 Advanced Independent Research S,F,W (0-24) [2.00]
 ENVS*4510 Advanced Independent Study I S,F,W (0-6) [0.50]
 ENVS*4520 Advanced Independent Study II S,F,W (0-6) [0.50]
@@ -714,10 +644,7 @@ EURO*3300 Violence and Culture F (3-0) [0.50]
 EURO*3700 Experiential Learning and Language S,F,W (0-0) [0.50]
 EURO*4050 Contemporary Europe. New Landscapes in the Post-Cold War Era W
 EURO*4600 Honours Seminar in European Studies W (3-0) [0.50]
-EURO*2200, EURO*2300 , HIST*2510, HIST*3090 , MUSC*1060,
-POLS*3450)
 EURO*4740 Research Project in European Studies F,W (3-0) [0.50]
-EURO*4740. See the Coordinator for the European Studies program for more information.
 XSEN*3030 Pharmacology and Applied Toxicology W (3-3) [0.50]
 XSEN*3040 Occupational Health and Chemistry W (2-3) [0.50]
 XSEN*3060 Pharmaceutical Analysis - Advanced W (2-3) [0.50]
@@ -730,24 +657,18 @@ FRHD*1020 Couple and Family Relationships W (3-0) [0.50]
 FRHD*1100 Life: Health and Well-Being F (3-0) [0.50]
 FRHD*2040 Principles of Program Design for Children W (3-0) [0.50]
 FRHD*2060 Adult Development and Aging F (3-0) [0.50]
-PSYC*1100 , PSYC*1200 , SOC*1100
 FRHD*2100 Development of Human Sexuality F (3-0) [0.50]
 FRHD*2110 Exceptional Children and Youth F (3-0) [0.50]
 FRHD*2260 Infant Development W (3-0) [0.50]
-PSYC*1100 , PSYC*1200 , SOC*1100
 FRHD*2270 Development in Early and Middle Childhood F (3-0) [0.50]
-PSYC*1100 , PSYC*1200 , SOC*1100
 FRHD*2280 Adolescent Development W (3-0) [0.50]
-PSYC*1100 , PSYC*1200 , SOC*1100
 FRHD*2300 Principles of Program Design for Youth W (3-0) [0.50]
 FRHD*2350 Principles of Program Design in the Human Services W (3-0) [0.50]
 FRHD*3040 Parenting and Intergenerational Relationships W (3-0) [0.50]
-FRHD*2260, FRHD*2270, FRHD*2280, PSYC*2450)
 FRHD*3060 Principles of Social Gerontology F (3-0) [0.50]
 FRHD*3070 Research Methods: Family Studies F (3-0) [0.50]
 FRHD*3090 Poverty and Health W (3-0) [0.50]
 FRHD*3150 Strategies for Behaviour Change W (3-0) [0.50]
-PSYC*2450), FRHD*2280
 FRHD*3180 Observation and Assessment Laboratory F (2-1) [0.50]
 FRHD*3190 Administration of Programs for Children W (3-0) [0.50]
 FRHD*3200 Practicum I: Child F,W (2-10) [1.00]
@@ -780,16 +701,13 @@ FARE*3030 The Firm and Markets F (3-1) [0.50]
 FARE*3170 Cost-Benefit Analysis W (3-0) [0.50]
 FARE*3250 Food and International Development F (3-0) [0.50]
 FARE*3310 Operations Management F,W (3-0) [0.50]
-STAT*2040, STAT*2060, STAT*2080, STAT*2120)
 FARE*4000 Agricultural and Food Policy W (3-0) [0.50]
 FARE*4210 World Agriculture, Food Security and Economic Development F (3-0)
 FARE*4220 Advanced Agribusiness Management W (3-0) [0.50]
 FARE*4240 Futures and Options Markets W (3-0) [0.50]
-MGMT*3320)
 FARE*4290 Land Economics F (3-0) [0.50]
 FARE*4310 Resource Economics W (3-0) [0.50]
 FARE*4360 Marketing Research W (3-0) [0.50]
-STAT*2050, STAT*2060, STAT*2080
 FARE*4370 Food & Agri Marketing Management F (3-0) [0.50]
 FARE*4500 Decision Science F (3-0) [0.50]
 FARE*4550 Independent Studies I S,F,W (3-0) [0.50]
@@ -806,7 +724,6 @@ FOOD*3040 Food Chemistry II W (3-3) [0.50]
 FOOD*3050 Food Chemistry I F (3-0) [0.50]
 FOOD*3060 Food Chemistry II W (3-0) [0.50]
 FOOD*3090 Food Science and Human Nutrition F (3-2) [0.50]
-BIOL*1080), CHEM*1040
 FOOD*3160 Food Processing I F (3-3) [0.75]
 FOOD*3170 Food Processing II W (3-3) [0.50]
 FOOD*3230 Food Microbiology F (3-3) [0.75]
@@ -815,7 +732,6 @@ FOOD*3260 Industrial Microbiology W (3-3) [0.50]
 FOOD*3270 Industrial Microbiology W (3-0) [0.50]
 FOOD*3430 Introduction to Food Analysis F (3-0) [0.50]
 FOOD*3700 Sensory Evaluation of Foods W (3-3) [0.50]
-STAT*2080)
 FOOD*4070 Food Packaging F (3-0) [0.50]
 FOOD*4090 Functional Foods and Nutraceuticals W (3-0) [0.50]
 FOOD*4110 Meat and Poultry Processing W (2-3) [0.50]
@@ -827,9 +743,7 @@ FOOD*4270 Food Product Development II W (3-3) [0.50]
 FOOD*4310 Food Safety Management Systems W (3-0) [0.50]
 FOOD*2420, FOOD*3230, FOOD*3240 )
 FOOD*4400 Dairy Processing W (3-3) [0.50]
-MICR*2420)
 FOOD*4520 Utilization of Cereal Grains for Human Food F (3-3) [0.50]
-AGR*2470, FOOD*2150, FOOD*3090, NUTR*3210)
 FREN*1010 Independent French Study S,F (3-0) [0.50]
 FREN*1090 Basic French: Reading S,F (3-0) [0.50]
 FREN*1100 Basic French: Listening F,W (3-0) [0.50]
@@ -871,7 +785,6 @@ GEOG*1220 Human Impact on the Environment F,W (3-0) [0.50]
 GEOG*1300 Introduction to the Biophysical Environment F,W (3-2) [0.50]
 GEOG*1350 Earth: Hazards and Global Change F,W (3-0) [0.50]
 GEOG*2000 Geomorphology F (3-2) [0.50]
-GEOG*1350, GEOL*1050 , GEOL*1100
 GEOG*2030 Environment and Development F (3-0) [0.50]
 GEOG*2110 Climate and the Biophysical Environment W (3-1) [0.50]
 GEOG*2210 Environment and Resources W (3-0) [0.50]
@@ -886,7 +799,6 @@ GEOG*3020 Global Environmental Change F (3-1) [0.50]
 GEOG*3050 Development and the City W (3-0) [0.50]
 GEOG*3090 Gender and Environment F (3-0) [0.50]
 GEOG*3110 Biotic and Natural Resources F (2-2) [0.50]
-ENVB*2030 , ENVS*2030, GEOG*2110)
 GEOG*3210 Management of the Biophysical Environment F (3-0) [0.50]
 GEOG*3320 Food Systems: Issues in Security and Sustainability F (3-0) [0.50]
 GEOG*3420 Remote Sensing of the Environment W (2-3) [0.50]
@@ -894,7 +806,6 @@ GEOG*3480 GIS and Spatial Analysis F,W (2-3) [0.50]
 GEOG*3490 Tourism and Environment W (3-0) [0.50]
 GEOG*3600 Geography of a Selected Region U (3-0) [0.50]
 GEOG*3610 Environmental Hydrology W (3-1) [0.50]
-GEOG*2110, or another 2000 level earth science or engineering science
 GEOG*4110 Environmental Systems Analysis F (3-6) [1.00]
 GEOG*4150 Catchment Processes W (3-2) [0.50]
 GEOG*4200 Social Life of Cities F (3-0) [0.50]
@@ -909,7 +820,6 @@ GEOG*4880 Contemporary Geographic Thought W (3-0) [0.50]
 GEOG*4990 Independent Study in Geography U (0-3) [0.50]
 GERM*1100 Introductory German I F,W (2-2) [0.50]
 GERM*1110 Introductory German II W (3-1) [0.50]
-GERM*1100. Students will attain a grasp of essential grammatical concepts and the
 GERM*2010 Intermediate Language Practice F (2-0) [0.50]
 GERM*2490 Intermediate German F (4-0) [0.50]
 GERM*3000 Narratives of Migration F (2-0) [0.50]
@@ -922,7 +832,6 @@ GERM*4940 Research Paper in German Studies U (3-0) [0.50]
 GREK*1100 Preliminary Greek I W (3-0) [0.50]
 GREK*1110 Preliminary Greek II F (3-0) [0.50]
 GREK*2020 Greek Language and Culture W (3-0) [0.50]
-GREK*1110. Intensive reading in texts that also illuminate aspects of Greek culture.
 HIST*1010 The Early Modern World F,W (3-0) [0.50]
 HIST*1050 Invitation to History F,W (3-0) [0.50]
 HIST*1150 The Modern World F,W (3-0) [0.50]
@@ -980,12 +889,8 @@ HIST*3470 Independent Reading U (3-0) [0.50]
 HIST*3480 Workplace Learning U (0-0) [0.50]
 HIST*3520 The Vikings: Early Medieval Encounters W (3-0) [0.50]
 HIST*3540 World War II W (3-0) [0.50]
-HIST*2300, HIST*2500, HIST*2510, HIST*2601/2 , HIST*2600,
-HIST*2650 , HIST*2830 , HIST*3350)
 HIST*3570 Women in Modern Europe U (3-0) [0.50]
-HIST*2930)
 HIST*3580 Women's History in Asia U (3-0) [0.50]
-HIST*2910, HIST*2930)
 HIST*3590 Ancient & Medieval India U (3-0) [0.50]
 HIST*3600 Quebec and French Canada U (3-0) [0.50]
 HIST*3640 Madness and Psychiatry F (3-0) [0.50]
@@ -1000,7 +905,6 @@ HIST*4030 Historical Biography U (3-0) [1.00]
 HIST*4040 Topics in Scottish History U (3-0) [1.00]
 HIST*4090 Modern European History U (3-0) [1.00]
 HIST*4100 Africa and the Slave Trades U (3-0) [1.00]
-HIST*3910)
 HIST*4120 Topics in Global History U (3-0) [1.00]
 HIST*4140 Sexuality in the Middle Ages F (3-0) [1.00]
 HIST*4160 Seminar in Canadian Political History U (3-0) [1.00]
@@ -1013,7 +917,6 @@ HIST*4280 Poverty and Policy in the Victorian Age U (3-0) [1.00]
 HIST*4450 Life, Death and Migrations F (3-0) [1.00]
 HIST*4470 Special History Project Seminar I U (3-0) [0.50]
 HIST*4580 The French Revolution U (3-0) [1.00]
-HIST*3820)
 HIST*4620 Seminar in Canadian Rural History U (3-0) [1.00]
 HIST*4700 Topics in Medieval History U (3-0) [1.00]
 HIST*4820 Images, Conflict and Politics in the Middle East F (3-0) [1.00]
@@ -1021,7 +924,6 @@ HIST*4970 Special History Project Seminar II U (3-0) [0.50]
 HORT*1120 Grape and Wine Science W (3-0) [0.50]
 HORT*1130 Science of Gardening F (3-0) [0.50]
 HORT*2450 Introduction to Turfgrass Science F (3-2) [0.50]
-BIOL*1080)]
 HORT*3010 Annual, Perennial and Indoor Plants - Identification and Use F (2-2)
 HORT*3050 Management of Turfgrass Insect Pests and Weeds F (3-2) [0.50]
 HORT*3150 Principles and Applications of Plant Propagation F (2-2) [0.50]
@@ -1047,7 +949,6 @@ HTM*3060 Lodging Management F (3-0) [0.50]
 HTM*3080 Marketing Strategy for Hospitality Managers F,W (3-0) [0.50]
 HTM*3090 Restaurant Operations Management F,W (2-4) [1.00]
 HTM*3120 Service Operations Analysis F,W (3-0) [0.50]
-STAT*2040, STAT*2060, STAT*2080)
 HTM*3160 Destination Management and Marketing F (3-0) [0.50]
 HTM*3180 Casino Operations Management W (0-0) [0.50]
 HTM*3780 Managing Food in Canada F (3-0) [0.50]
@@ -1067,25 +968,16 @@ HROB*2010 Foundations of Leadership F,W (3-0) [0.50]
 HROB*2090 Individuals and Groups in Organizations F,W (3-0) [0.50]
 HROB*2290 Human Resources Management F,W (3-0) [0.50]
 HROB*3010 Managing and Rewarding Performance F (3-0) [0.50]
-PSYC*3070
 HROB*3030 Workplace Health and Safety W (3-0) [0.50]
-HROB*3000 , PSYC*3070 )
 HROB*3050 Employment Law F (3-0) [0.50]
-HROB*3000 , PSYC*3070 )
 HROB*3070 Attracting and Acquiring Talent F (3-0) [0.50]
-PSYC*3070
 HROB*3090 Developing Talent W (3-0) [0.50]
-PSYC*3070
 HROB*3100 Developing Management and Leadership Competencies F,W (3-0)
-HROB*3000 , PSYC*3070 )
 HROB*4000 Leadership and Organizational Management Capstone W (3-0) [0.50]
 HROB*4010 Leadership Certificate Capstone W (3-0) [0.50]
 HROB*4030 Advanced Topics In Leadership and Organizational Management U
-HROB*3000 , PSYC*3070 )
 HROB*4060 Workforce Optimization W (3-0) [0.50]
-HROB*3000 , PSYC*3070 )
 HROB*4100 Evidence-Based People Management F (3-0) [1.00]
-HROB*3000 , PSYC*3070 )
 HK*2270 Principles of Human Biomechanics F (3-1) [0.50]
 HK*2810 Human Physiology I - Concepts and Principles W (3-0) [0.50]
 HK*3100 Neuromuscular Physiology W (3-0) [0.50]
@@ -1094,7 +986,6 @@ HK*3401/2 Human Anatomy: Dissection F-W [1.50]
 HK*3402 Human Anatomy: Dissection W (3-3) [0.75]
 HK*3501 Human Anatomy: Prosection F (3-2) [0.75]
 HK*3501/2 Human Anatomy: Prosection F-W [1.50]
-HK*3502 has been completed.
 HK*3502 Human Anatomy W (3-2) [0.75]
 HK*3600 Applied Human Kinetics I F (3-3) [0.75]
 HK*3810 Human Physiology II - Integrated Systems F (4-0) [0.75]
@@ -1125,7 +1016,6 @@ HUMN*2020 The Criminal Mind in Italian Cinema W (3-0) [0.50]
 HUMN*2300 Fundamentals of Arts Management II F (3-0) [0.50]
 HUMN*3000 Narratives of Migration W (3-0) [0.50]
 HUMN*3020 Myth and Fairy Tales in Germany W (3-0) [0.50]
-GERM*3020.
 HUMN*3100 London Studies in the Humanities W (2-3) [0.50]
 HUMN*3150 Paris Studies in the Humanities W (2-3) [0.50]
 HUMN*3190 Experiential Learning S,F,W (0-0) [0.50]
@@ -1147,7 +1037,6 @@ ISS*3260 Krakow Studies in the Social Sciences II F (3-2) [0.50]
 ISS*3270 India Studies in the Social Sciences W (3-0) [0.50]
 ISS*3300 Latin American Studies in the Social Sciences F,W (1-2) [0.50]
 ISS*3420 Women Social and Political Theorists W (3-0) [0.50]
-UNIV*3500 , UNIV*3550 and UNIV*4500 are re-numbered and now appear under
 UNIV*1150 The Politics, Science and Culture of Hunger W (0-0) [1.00]
 UNIV*1200 First Year Seminar F,W (3-0) [0.50]
 UNIV*1250 Experiential Learning Opportunity I: Peer Helper U (0-0) [0.00]
@@ -1179,7 +1068,6 @@ IBIO*4522 Thesis in Integrative Biology W (0-12) [1.00]
 IBIO*4521/2 for course description. This is a two semester course offered over consecutive
 IBIO*4521 until IBIO*4522 has been completed.
 IBIO*4600 Integrative Marine and Freshwater Research F (3-3) [1.00]
-ZOO*3210 , ZOO*3610)
 IDEV*1000 Understanding Development and Global Inequalities F (3-0) [0.50]
 IDEV*2500 International Development Studies W (4-0) [0.50]
 IDEV*3010 Case Studies in International Development F,W (3-0) [0.50]
@@ -1231,7 +1119,6 @@ MGMT*3020 Corporate Social Responsibility S,F,W (3-0) [0.50]
 MGMT*3030 Managerial Communications and Team Leadership W (3-0) [0.50]
 MGMT*3320 Financial Management S,F,W (3-0) [0.50]
 MGMT*4000 Strategic Management F,W (3-0) [0.50]
-FARE*3310, HTM*3120, REAL*3890)
 MGMT*4020 Interdisciplinary Food Product Development I F (3-3) [0.50]
 MGMT*4030 Interdisciplinary Food Product Development II W (3-3) [0.50]
 MGMT*4050 Business Consulting F,W (3-0) [0.50]
@@ -1246,14 +1133,11 @@ MCS*2000 Business Communication in a Changing World F (3-0) [0.50]
 MCS*2020 Information Management F,W (3-0) [0.50]
 MCS*2100 Personal Financial Management S,F,W (3-0) [0.50]
 MCS*2600 Fundamentals of Consumer Behaviour F,W (3-0) [0.50]
-PSYC*1000, PSYC*1200 ). Although not required, it is recommended
 MCS*3000 Advanced Marketing F (3-0) [0.50]
 MCS*3010 Quality Management W (3-0) [0.50]
-STAT*2060, STAT*2080)
 MCS*3030 Research Methods F,W (3-0) [0.50]
 MCS*3040 Business and Consumer Law S,F,W (3-0) [0.50]
 MCS*3500 Marketing Analytics F,W (3-0) [0.50]
-MCS*2600, (1 of ECON*2740, PSYC*1010, STAT*2060)
 MCS*3600 Consumer Information Processes F,W (3-0) [0.50]
 MCS*3620 Marketing Communications F,W (3-0) [0.50]
 MCS*4020 Research in Consumer Studies U (3-0) [0.50]
@@ -1267,7 +1151,6 @@ MCS*4600 International Marketing F,W (3-0) [0.50]
 MCS*4910 Topics in Consumer Studies U (3-0) [0.50]
 MCS*4920 Topics in Consumer Studies U (3-0) [0.50]
 MCS*4950 Consumer Studies Practicum S,F,W (3-0) [0.50]
-MATH*2080.
 MATH*1030 Business Mathematics F,W (3-0) [0.50]
 MATH*1080 Elements of Calculus I F,W (3-1) [0.50]
 MATH*1160 Linear Algebra I F,W (3-0) [0.50]
@@ -1278,16 +1161,13 @@ MATH*2130 Numerical Methods W (3-2) [0.50]
 MATH*2200 Advanced Calculus I F (3-0) [0.50]
 MATH*2210 Advanced Calculus II W (3-0) [0.50]
 MATH*2270 Applied Differential Equations F (3-1) [0.50]
-MATH*2080)
 MATH*3100 Differential Equations II F (3-1) [0.50]
-MATH*2270)
 MATH*3130 Abstract Algebra F (3-0) [0.50]
 MATH*3160 Linear Algebra II W (3-0) [0.50]
 MATH*3200 Real Analysis F (3-0) [0.50]
 MATH*3240 Operations Research F (3-0) [0.50]
 MATH*3260 Complex Analysis W (3-0) [0.50]
 MATH*3510 Biomathematics W (3-0) [0.50]
-MATH*2270)
 MATH*4050 Topics in Mathematics I W (3-0) [0.50]
 MATH*4060 Topics in Mathematics II W (3-0) [0.50]
 MATH*4150 Topics in Mathematics III F,W (3-0) [0.50]
@@ -1297,7 +1177,6 @@ MATH*4270 Partial Differential Equations F (3-0) [0.50]
 MATH*4440 Case Studies in Mathematics and Statistics W (3-0) [0.50]
 MATH*4600 Advanced Research Project in Mathematics F,W (0-6) [1.00]
 MICR*2420 Introduction to Microbiology S,F,W (3-2) [0.50]
-CHEM*1040)
 MICR*2430 Methods in Microbial Culture and Physiology F,W (1.5-3) [0.50]
 MICR*3090 Mycology F (3-3) [0.50]
 MICR*3220 Plant Microbiology F (3-0) [0.50]
@@ -1317,11 +1196,8 @@ MCB*3010 Dynamics of Cell Function and Signaling W (3-0) [0.50]
 MCB*4010 Advanced Cell Biology W (3-0) [0.50]
 MCB*4050 Protein and Nucleic Acid Structure F (3-0) [0.50]
 MCB*4500 Research Project in Molecular & Cellular Biology I S,F,W (0-12) [1.00]
-MCB*4500. Grade requirements may be waived in exceptional
 MCB*4510 Research Project in Molecular & Cellular Biology S,F,W (0-12) [1.00]
-MCB*4510. Grade requirements may be waived in exceptional
 MCB*4600 Topics in Molecular and Cellular Biology S,F,W (1-3) [0.50]
-MCB*4600. Coordinator consent required.
 MBG*1000 Genetics and Society W (3-1) [0.50]
 MBG*2040 Foundations in Molecular Biology and Genetics F,W (4-0) [0.50]
 MBG*2400 Fundamentals of Plant and Animal Genetics F (3-2) [0.50]
@@ -1362,7 +1238,6 @@ MUSC*2380 Classical Music from Concert Hall to Cinema S (3-0) [0.50]
 MUSC*2410 Applied Composition I F (3-0) [0.50]
 MUSC*2420 Applied Composition II W (3-0) [0.50]
 MUSC*2500 Applied Music III S,F,W (1-6) [0.50]
-MUSC*1510. (MUSC*1180 or MUSC*2180 may be taken as
 MUSC*2510 Applied Music IV S,F,W (1-6) [0.50]
 MUSC*2530 Instrumental Ensembles I F,W (0-2) [0.25]
 MUSC*2540 Instrumental Ensembles II F,W (0-2) [0.25]
@@ -1374,14 +1249,10 @@ MUSC*2660 Materials of Music I F (3-0) [0.50]
 MUSC*3010 Materials of Music II W (3-0) [0.50]
 MUSC*3150 Music in London F (3-0) [0.50]
 MUSC*3410 Applied Composition III F,W (1-6) [0.50]
-MUSC*2540, MUSC*2550, MUSC*2560).
 MUSC*3420 Applied Composition IV F,W (1-6) [0.50]
 MUSC*3500 Applied Music V S,F,W (1-6) [0.50]
-MUSC*2510, (MUSC*2540 or MUSC*2560).
 MUSC*3510 Applied Music VI S,F,W (1-6) [0.50]
-MUSC*3500
 MUSC*3550 Advanced Music Ensemble I F,W (0-3) [0.25]
-MUSC*2560)
 MUSC*3560 Advanced Music Ensemble II F,W (0-3) [0.25]
 MUSC*3630 Tragedy, Technology, and Torture: Music Post 1900 W (3-0) [0.50]
 MUSC*3730 Topics in Jazz and Improvised Music F (3-0) [1.00]
@@ -1391,10 +1262,8 @@ MUSC*3820 Topics in Ethnomusicology F (3-0) [1.00]
 MUSC*3860 Topics in Digital Music F (3-0) [1.00]
 MUSC*3880 Topics in Music Pedagogy W (3-0) [1.00]
 MUSC*4200 Independent Project in Music S,F,W (3-0) [0.50]
-MUSC*3800, MUSC*3820, MUSC*3860, MUSC*3880)
 MUSC*4450 Honours Seminar in Music W (3-0) [1.00]
 MUSC*4460 Honours Music Recital Preparation S,F,W (1-6) [0.50]
-MUSC*3510
 MUSC*4470 Honours Music Recital S,F,W (1-6) [0.50]
 NANO*1000 Introduction to Nanoscience F (3-0) [0.50]
 NANO*2000 Synthesis and Characterization of Nanomaterials I F (3-3) [0.50]
@@ -1403,7 +1272,6 @@ NANO*3200 Nanolithographic Techniques W (3-3) [0.50]
 NANO*3300 Spectroscopy of Nanomaterials W (3-3) [0.50]
 NANO*3500 Thin Film Science F (3-3) [0.50]
 NANO*3600 Computational Methods in Materials Science F (3-3) [0.50]
-CIS*1500 is highly recommended
 NANO*4100 Biological Nanomaterials F (3-0) [0.50]
 NANO*4200 Topics in Nanomaterials W (3-0) [0.50]
 NANO*4700 Concepts in Quantum Computing F (3-0) [0.50]
@@ -1418,7 +1286,6 @@ NEUR*4100 Neuropharmacology F (4-0) [0.50]
 NEUR*4401 Research in Neurosciences S,F,W (0-6) [0.50]
 NEUR*4401/2 Research in Neurosciences S-F,F-W,W-S (0-6) [1.00]
 NEUR*4402 in the second semester. A grade will not be assigned in NEUR*4401 until
-NEUR*4402 has been completed.
 NEUR*4402 Research in Neurosciences S,F,W (0-6) [0.50]
 NEUR*4450 Research in Neurosciences S,F,W (0-12) [1.00]
 NUTR*1010 Introduction to Nutrition F,W (3-0) [0.50]
@@ -1426,7 +1293,6 @@ NUTR*2050 Nutrition Through the Life Cycle F (3-0) [0.50]
 NUTR*2150 Introduction to Nutritional and Food Sciences F (3-0) [0.50]
 NUTR*3070 Nutrition and Physical Activity Interventions W (3-0) [0.50]
 NUTR*3090 Clinical Nutrition I W (3-3) [1.00]
-NUTR*3190 or NUTR*3210), STAT*2090
 NUTR*3110 Food Security W (3-0) [0.50]
 NUTR*3150 Aging and Nutrition W (3-0) [0.50]
 NUTR*3210 Fundamentals of Nutrition S,F,W (3-0) [0.50]
@@ -1435,13 +1301,11 @@ NUTR*3360 Lifestyle Genomics F (3-0) [0.50]
 NUTR*3390 Applied Nutritional and Nutraceutical Sciences I F (3-3) [0.75]
 NUTR*4010 Nutritional Assessment F (3-0) [0.50]
 NUTR*4040 Clinical Nutrition II F (3-0) [0.50]
-BIOM*3110 ), BIOM*3200], ( NUTR*3040 or NUTR*3090)
 NUTR*4070 Nutrition Education F (3-0) [0.50]
 NUTR*4090 Functional Foods and Nutraceuticals W (3-0) [0.50]
 NUTR*4120 Applied Clinical Skills W (0-3) [0.50]
 NUTR*4210 Nutrition, Exercise and Energy Metabolism F (3-0) [0.50]
 NUTR*4320 Nutrition and Metabolic Control of Disease W (3-0) [0.50]
-ZOO*3620)
 NUTR*4330 Applied Nutritional and Nutraceutical Sciences II W (3-3) [0.75]
 NUTR*4360 Current Issues in Nutrigenomics W (3-0) [0.50]
 NUTR*4510 Toxicology, Nutrition and Food F (3-0) [0.50]
@@ -1509,18 +1373,14 @@ PHIL*4230 Current Debates in Social and Political Philosophy U (3-0) [0.50]
 PHIL*4310 Applied Ethics U (3-0) [0.50]
 PHIL*4340 Current Debates in Ethics U (3-0) [0.50]
 PHIL*4360 Current Debates in Epistemology U (3-0) [0.50]
-PHIL*3190)
 PHIL*4370 Current Debates in Metaphysics U (3-0) [0.50]
 PHIL*4410 Major Texts in Philosophy U (3-0) [0.50]
-PHIL*4420.
 PHIL*4420 Major Texts in Philosophy U (3-0) [0.50]
-PHIL*4410.
 PHIL*4710 Directed Reading F,W (3-0) [0.50]
 PHIL*4720 Directed Reading F,W (3-0) [0.50]
 PHIL*4800 Honours Philosophy Research Paper I U (3-0) [0.50]
 PHIL*4820 Philosophy Research Presentation F,W (3-0) [0.50]
 PHYS*1010 Introductory Electricity and Magnetism W (3-3) [0.50]
-PHYS*1020 , PHYS*1300)
 PHYS*1070 Physics for Life Sciences II W (3-3) [0.50]
 PHYS*1080 Physics for Life Sciences F,W (3-3) [0.50]
 PHYS*1130 Physics with Applications W (3-3) [0.50]
@@ -1529,33 +1389,22 @@ PHYS*1600 Contemporary Astronomy F (3-0) [0.50]
 PHYS*1810 Physics of Music F (3-0) [0.50]
 PHYS*1300 or PHYS*1600) may enrol in this course only if they are
 PHYS*2030 Biophysics of Excitable Cells W (3-1) [0.50]
-PHYS*1810)
 PHYS*2180 Experimental Techniques in Physics W (3-3) [0.50]
 PHYS*2240 Thermal Physics F (3-0) [0.50]
-PHYS*1080)
 PHYS*2310 Mechanics W (4-0) [0.50]
 PHYS*2330 Electricity and Magnetism I F (4-0) [0.50]
-PHYS*1070, PHYS*1130)]
 PHYS*2340 Electricity and Magnetism II W (4-0) [0.50]
 PHYS*2600 General Astronomy F (4-1) [0.50]
-PHYS*1810), 0.50 credit in mathematics at the 1000 level
 PHYS*3000 Optics: Fundamentals and Applications W (3-0) [0.50]
 PHYS*3080 Energy W (3-0) [0.50]
-MATH*1080, MATH*1200)], (1 of IPS*1510, PHYS*1010,
-PHYS*1070, PHYS*1130)
 PHYS*3130 Mathematical Physics F (3-0) [0.50]
-MATH*2270, PHYS*2310, PHYS*2340
 PHYS*3170 Radioactivity and Radiation Interactions F (3-0) [0.50]
-MATH*2270)
 PHYS*3230 Quantum Mechanics I F (4-0) [0.50]
-MATH*2270), (PHYS*2340 or PHYS*2470 )
 PHYS*3400 Advanced Mechanics F (3-0) [0.50]
 PHYS*3510 Intermediate Laboratory W (0-6) [0.50]
 PHYS*4001 Research in Physics F (0-6) [0.50]
 PHYS*4001/2 for the course description.
 PHYS*4001/2 Research in Physics F-W (0-6) [1.00]
-PHYS*4002 in the Winter semester. A grade will not be assigned to PHYS*4001 until
-PHYS*4002 has been completed.
 PHYS*4002 Research in Physics W (0-6) [0.50]
 PHYS*4001/2 for the course description.
 PHYS*4040 Quantum Mechanics II W (4-0) [0.50]
@@ -1569,14 +1418,8 @@ PHYS*4300 Inquiry in Physics W (0-6) [0.50]
 PHYS*4500 Advanced Physics Laboratory F,W (0-6) [0.50]
 PHYS*4540 Molecular Biophysics W (3-0) [0.50]
 PHYS*4910 Advanced Topics in Physics I U (3-0) [0.50]
-MATH*2270), [( PHYS*2450 , PHYS*2470 ) or (PHYS*2180 ,
-PHYS*2310, PHYS*2340)]
 PHYS*4920 Advanced Topics in Physics II U (3-0) [0.50]
-MATH*2270), [( PHYS*2450 , PHYS*2470 ) or (PHYS*2180 ,
-PHYS*2310, PHYS*2340)]
 PHYS*4930 Advanced Topics in Physics III U (3-0) [0.50]
-MATH*2270), [( PHYS*2450 , PHYS*2470 ) or (PHYS*2180 ,
-PHYS*2310, PHYS*2340)]
 BIOM*4020 [0.50] Physiology of Digestion
 BIOM*4030 [0.50] Endocrine Physiology
 BIOM*4041/2 [1.00] Mammalian Reproductive Biology
@@ -1593,7 +1436,6 @@ PBIO*4000 Molecular and Cellular Aspects of Plant-Microbe Interactions F (3-0)
 PBIO*4070 Biological and Cultural Control of Plant Diseases W (3-0) [0.50]
 PBIO*4150 Molecular and Cellular Aspects of Plant Development W (3-0) [0.50]
 PBIO*4530 Plants and Environmental Pollution W (3-0) [0.50]
-ENVS*2330, PBIO*3110), CHEM*1040
 PBIO*4750 Genetic Engineering of Plants W (3-3) [0.50]
 POLS*1150 Understanding Politics F,W (3-1) [0.50]
 POLS*1400 Issues in Canadian Politics F (3-0) [0.50]
@@ -1614,7 +1456,6 @@ POLS*3130 Law, Politics and Judicial Process U (3-0) [0.50]
 POLS*3140 Politics and the Charter of Rights F,W (3-0) [0.50]
 POLS*3160 Women and Politics in the Third World U (3-0) [0.50]
 POLS*3180 Research Methods I: Political Inquiry and Methods F (2-1) [0.50]
-POLS*2250)
 POLS*3210 The Constitution and Canadian Federalism W (3-0) [0.50]
 POLS*3230 Modern Political Thought W (3-0) [0.50]
 POLS*3250 Public Policy: Challenges and Prospects F (3-0) [0.50]
@@ -1642,37 +1483,23 @@ POLS*4070 Courts and Parliament F,W (3-0) [1.00]
 POLS*4100 Women, Justice and Public Policy U (3-0) [1.00]
 POLS*4140 Conceptions of Canada W (3-0) [1.00]
 POLS*4150 Advanced Lecture in Conceptions of Canada W (3-0) [0.50]
-POLS*3470)
 POLS*4160 Multi-Level Governance in Canada U (3-0) [1.00]
 POLS*4200 International Political Economy U (3-0) [1.00]
 POLS*4250 Topics in Public Management W (3-0) [1.00]
 POLS*4260 Topics in Public Policy U (3-0) [1.00]
 POLS*4270 Advanced Lecture in Public Management F (3-0) [0.50]
-POLS*3250, POLS*3270, POLS*3300, POLS*3370, POLS*3440,
-POLS*3470, POLS*3670)
 POLS*4280 Advanced Lecture in Public Policy W (3-0) [0.50]
-POLS*3050, POLS*3130, POLS*3210, POLS*3270, POLS*3300,
-POLS*3370, POLS*3440, POLS*3470, POLS*3670)
 POLS*4300 Human Rights, Ethics, and Development W (3-0) [1.00]
 POLS*4310 Advanced Lecture in Women, Justice and Public Policy F,W (3-0) [0.50]
-HIST*3160, POLS*3050, POLS*3130, POLS*3210,
-POLS*3270,POLS*3300, POLS*3370, POLS*3440, POLS*3470,
-POLS*3670)
 POLS*4320 Advanced Lecture on Human Rights, Ethics and Development F (3-0)
 POLS*4340 Nationalism, State-building and Identity U (3-0) [1.00]
 POLS*4710 Topics in Comparative Politics U (3-0) [1.00]
 POLS*4720 Topics in International Relations U (3-0) [1.00]
 POLS*4730 International Relations of the Middle East W (3-0) [1.00]
-POLS*3410, POLS*3440, POLS*3450, POLS*3490, POLS*3670,
-POLS*3790, POLS*3890, POLS*3920)
 POLS*4740 Advanced Topics in Rights and Liberties F (3-0) [1.00]
 POLS*4760 Advanced Lecture in Comparative Politics W (3-0) [0.50]
-POLS*3080, POLS*3160, POLS*3320, POLS*3410, POLS*3440,
-POLS*3450, POLS*3670, POLS*3890, POLS*3920)
 POLS*4770 Advanced Lecture in International Relations F (3-0) [0.50]
-POLS*3790)
 POLS*4780 Advanced Lecture in Rights and Liberties F,W (3-0) [0.50]
-POLS*3140)
 POLS*4900 Special Topics Seminar in Political Science S,F,W (3-0) [1.00]
 POLS*4910 Selected Topics in Political Science II S,F,W (3-0) [0.50]
 POLS*4930 Selected Topics in Political Science S,F,W (3-0) [0.50]
@@ -1683,25 +1510,20 @@ POPM*4040 Epidemiology of Food-borne Diseases F (3-0) [0.50]
 POPM*4230 Animal Health F (3-0) [0.50]
 PORT*1100 Introductory Portuguese (Brazilian Culture) F (3-0) [0.50]
 PORT*1110 Intermediate Portuguese (Brazilian Culture) W (3-0) [0.50]
-PSYC*4880.
 PSYC*1000 Introduction to Psychology S,F,W (3-0) [0.50]
 PSYC*1010 Making Sense of Data in Psychological Research F,W (3-0) [0.50]
-STAT*2100 , STAT*2120 This is a Priority Access Course. Some
 PSYC*1500 Foundational Skills for Psychology F,W (3-0) [0.50]
 PSYC*2020 Abnormal Psychology W (3-0) [0.50]
 PSYC*2070 Teams, Leadership, and Professional Behaviour F,W (3-0) [0.50]
 PSYC*2310 Social Psychology S,F,W (3-0) [0.50]
 PSYC*2330 Principles of Learning F,W (3-0) [0.50]
 PSYC*2360 Psychological Methods and Statistics S,F,W (3-0) [0.50]
-PSYC*2010 , STAT*2040)
 PSYC*2390 Sensation and Perception W (3-0) [0.50]
 PSYC*2410 Behavioural Neuroscience I F (3-0) [0.50]
 PSYC*2450 Developmental Psychology F (3-0) [0.50]
 PSYC*2650 Cognitive Psychology W (3-0) [0.50]
 PSYC*2740 Personality W (3-0) [0.50]
 PSYC*3000 Historical and Critical Perspectives on Psychology F,W (3-0) [0.50]
-PSYC*2740), (2 of PSYC*2330, PSYC*2390, PSYC*2410,
-PSYC*2650)
 PSYC*3020 Psychology of Law U (3-0) [0.50]
 PSYC*3030 Neurochemical Basis of Behaviour W (3-0) [0.50]
 PSYC*3100 Evolutionary Psychology F (3-0) [0.50]
@@ -1717,25 +1539,18 @@ PSYC*3350 Cross-Cultural Psychology F (3-0) [0.50]
 PSYC*3410 Behavioural Neuroscience II F (3-2) [0.50]
 PSYC*3450 Social and Personality Development W (3-0) [0.50]
 PSYC*3470 Putting Psychology to Work W (3-0) [0.50]
-PSYC*2740), (1 of PSYC*2330, PSYC*2390, PSYC*2410,
-PSYC*2650)
 PSYC*3480 Psychology of Sport U (3-0) [0.50]
 PSYC*3490 Social and Organizational Psychology F (3-0) [0.50]
 PSYC*3570 The Psychology of Death and Dying U (3-0) [0.50]
 PSYC*3800 Psychology and Education U (3-0) [0.50]
 PSYC*3850 Intellectual Disabilities U (3-0) [0.50]
 PSYC*3900 Psychology Research Internship F,W,S (0-6) [0.50]
-PSYC*2010 , STAT*2040) and at least 1.00 credits at the 2000 level
 PSYC*3910 Psychology Externship F,W,S (0-6) [0.50]
-PSYC*2740), (1 of PSYC*2330, PSYC*2390, PSYC*2410,
-PSYC*2650)
 PSYC*4240 Advanced Independent Research Project S,F,W (3-6) [0.50]
 PSYC*4310 Advanced Topics in Social and Applied Social Psychology W (3-0) [0.50]
-PSYC*3290) ), 0.50 credits in Psychology at the 3000 level]
 PSYC*4330 Advanced Topics in I/O Psychology F (3-0) [0.50]
 PSYC*4460 Advanced Topics in Clinical and Applied Developmental Psychology
 PSYC*4470 Advanced Topics in Behavioural and Cognitive Neuroscience F (3-0)
-NEUR*2000
 PSYC*4500 Current Theoretical Issues in Psychology S,F,W (3-0) [0.50]
 PSYC*4510 Current Issues in Psychology S,F,W (0-6) [0.50]
 PSYC*4540 Practical Applications of Psychology F,W (3-0) [1.00]
@@ -1752,11 +1567,9 @@ REAL*3810 Real Estate Market Analysis F (3-0) [0.50]
 REAL*3870 Topics in Housing U (3-0) [0.50]
 REAL*3880 Topics in Housing U (3-0) [0.50]
 REAL*3890 Property Management W (3-0) [0.50]
-BUS*2230 , ECON*3560 , HTM*3070 , MCS*2820 , REAL*2820)
 REAL*4820 Real Estate Appraisal F (3-0) [0.50]
 REAL*4830 Real Estate Development Project W (6-0) [1.00]
 REAL*4840 Housing and Real Estate Law F (3-0) [0.50]
-REAL*1820), ( MCS*2820 or REAL*2820)
 REAL*4870 Sustainable Real Estate F (3-0) [0.50]
 SOC*1100 Sociology S,F,W (3-0) [0.50]
 SOC*1500 Crime and Criminal Justice F,W (3-0) [0.50]
@@ -1781,25 +1594,17 @@ SOC*3730 Courts and Society W (3-0) [0.50]
 SOC*3740 Corrections and Penology F (3-0) [0.50]
 SOC*3750 Police in Society F,W (3-0) [0.50]
 SOC*3840 Seminar in Sociology F,W (3-0) [0.50]
-SOAN*2120
 SOC*3850 Seminar in Sociology F,W (3-0) [0.50]
-SOAN*2120
 SOC*3950 Special Projects in Sociology S,F,W (3-0) [0.50]
 SOC*4010 Violence and Society F,W (3-0) [0.50]
-POLS*3650 )
 SOC*4030 Advanced Topics in Criminology F (3-0) [0.50]
-SOC*3740, SOC*3750), (1 of ANTH*3690, SOC*2700, SOC*3310),
 SOC*4200 Advanced Topics in Criminal Justice W (3-0) [0.50]
-SOC*3740, SOC*3750), (1 of ANTH*3690, SOC*2700, SOC*3310),
 SOC*4210 Advanced Topics in Rural Sociology U (3-0) [0.50]
 SOC*4230 Comparative Sociology W (3-0) [0.50]
 SOC*4300 Theoretical and Methodological Issues U (3-0) [0.50]
 SOC*4310 Advanced Topics in Canadian Society U (3-0) [0.50]
-SOC*2010
 SOC*4410 Women, Work and Public Policy U (3-0) [0.50]
-SOAN*2120
 SOC*4420 Sociology of Food Systems F (3-0) [0.50]
-SOAN*2120
 SOC*4430 Alternative Social Possibilities W (3-0) [0.50]
 SOC*4450 Semiotics: Theory & Methodology F (3-0) [0.50]
 SOC*4700 Seminar: Theoretical Issues in Sociology U (3-0) [0.50]
@@ -1825,11 +1630,8 @@ SOAN*3250 Social Change in Latin America W (3-0) [0.50]
 SOAN*3680 Perspectives on Development F (3-0) [0.50]
 SOAN*4220 Gender and Change in Rural Canada F (3-0) [0.50]
 SOAN*4230 Gender & Global Inequality II W (3-0) [0.50]
-SOAN*2120)
 SOAN*4250 Energy and Society F (3-0) [0.50]
-SOC*2080)
 SOAN*4260 Migration, Inequality and Social Change W (3-0) [0.50]
-SOC*2080)
 SOAN*4320 Transition from School to Work W (3-0) [0.50]
 SOAN*4500 Community Development U (3-0) [0.50]
 SPAN*1100 Introductory Spanish I F,W (3-1) [0.50]
@@ -1854,8 +1656,6 @@ SPAN*4410 Senior Seminar on Latin American Post-1950 F (3-0) [1.00]
 SPAN*4420 Senior Seminar on Spain or Africa Post-1936 W (3-0) [1.00]
 SPAN*4500 Spanish Translation I F (3-0) [0.50]
 SPAN*4840 Research Paper in Hispanic Studies U (3-0) [1.00]
-STAT*2040, STAT*2060, STAT*2080, STAT*2100 , STAT*2120.
-PSYC*2010 , PSYC*3320 .
 STAT*2040 Statistics I S,F,W (3-0) [0.50]
 STAT*2050 Statistics II F,W (3-0) [0.50]
 STAT*2060 Statistics for Business Decisions F,W (3-0) [0.50]
@@ -1863,22 +1663,17 @@ STAT*2080 Introductory Applied Statistics I F (3-0) [0.50]
 STAT*2090 Introductory Applied Statistics II W (3-0) [0.50]
 STAT*2120 Probability and Statistics for Engineers F,W (3-0) [0.50]
 STAT*2230 Biostatistics for Integrative Biology W (3-2) [0.50]
-STAT*2250 . Restricted to students in the BSC majors in BIOD, MFB,
 STAT*3100 Introductory Mathematical Statistics I F (3-0) [0.50]
-STAT*2120)
 STAT*3110 Introductory Mathematical Statistics II W (3-0) [0.50]
 STAT*3210 Experimental Design F (3-0) [0.50]
 STAT*3240 Applied Regression Analysis F (3-1) [0.50]
-MATH*2150 , MATH*2160 ), STAT*2050
 STAT*3320 Sampling Theory with Applications F (3-0) [0.50]
-STAT*3240, STAT*3100)
 STAT*3510 Environmental Risk Assessment W (3-0) [0.50]
 STAT*4050 Topics in Applied Statistics I F (3-0) [0.50]
 STAT*4060 Topics in Applied Statistics II F (3-0) [0.50]
 STAT*4150 Topics in Applied Statistics III F,W (3-0) [0.50]
 STAT*4340 Statistical Inference W (3-0) [0.50]
 STAT*4350 Applied Multivariate Statistical Methods F (3-0) [0.50]
-STAT*3240
 STAT*4360 Applied Time Series Analysis F (3-0) [0.50]
 STAT*4600 Advanced Research Project in Statistics F,W (0-6) [1.00]
 SART*1050 and SART*1060.
@@ -1888,21 +1683,13 @@ SART*1060 Core Studio F,W (2-4) [0.50]
 SART*1050 in the same term. This is a Priority Access Course.
 SART*1150 Contemporary Artistic Practice S,W (3-0) [0.50]
 SART*2090 Drawing I F,W (0-6) [0.50]
-SART*1060
 SART*2200 Painting I F,W (0-6) [0.50]
-SART*1060
 SART*2300 Sculpture I F,W (0-6) [0.50]
-SART*1060
 SART*2460 Printmaking I F (0-6) [0.50]
-SART*1060
 SART*2610 Photography I F,W (0-6) [0.50]
-SART*1060
 SART*2700 Digital Media I F (0-6) [0.50]
-SART*1060
 SART*2710 Digital Media II W (0-6) [0.50]
-SART*1060
 SART*2800 Extended Practices I F,W (0-6) [0.50]
-SART*1060
 SART*3090 Drawing II F,W (0-6) [0.50]
 SART*3200 Painting II F,W (0-6) [0.50]
 SART*3300 Sculpture II F,W (0-6) [0.50]
