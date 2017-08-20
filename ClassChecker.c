@@ -11,11 +11,11 @@ void removeNewline(char inputString[50]);
 int main(void)
 {
 	// Struct Decleration
-	struct classInfo {
+	typedef struct {
 		char classCode[50];
 		char classType[50];
 		char classLoc[50];
-	};
+	} classInfo;
 
 	// Variable Decleration
 	int numClasses = 1;
@@ -24,9 +24,9 @@ int main(void)
 	char menuInput[100];
 	char enterCode[100];
 	char importMenu[100];
-	char tempInput[100];
+	char tempInput[100] = "NULL";
 
-	struct classInfo classArray[numClasses];
+	classInfo *classArray;
 
 	FILE *timetableDataFP = NULL;
 
@@ -58,7 +58,8 @@ int main(void)
 			printf("\nCopy and Paste your timetable data into the text file 'timetableData.txt' in this directory!\n");
 			printf("If the text file 'timetableData.txt' contains your class data, and is saved, type 'Ready'\n");
 			printf("If you want a step by step and video demonstration of what to do, type 'Help'\n");
-			
+			loopMenu2 = true;
+
 			while(loopMenu2 == true) {
 				printf("Enter 'Ready' or 'Help': ");
 				fgets(importMenu, sizeof(importMenu), stdin);
@@ -80,26 +81,43 @@ int main(void)
 										
 					timetableDataFP = fopen("timetableData.txt", "r");
 					fseek(timetableDataFP, 21, SEEK_SET);	// Seeking to where the class codes start. Will be the same for every paste.
-															// SOMETHING WRONG HERE, Second line (first entry location) not being read or something
-					while(strcmp(tempInput, " ") != 0) {
-						while(lineChecker < 4) {
-							fgets(tempInput, sizeof(tempInput), timetableDataFP);
-							removeNewline(tempInput);
-							if(lineChecker == 1) {
-								strcpy(classArray[numClasses].classCode, tempInput);
-							}
-							else if(lineChecker == 2) {
-								strcpy(classArray[numClasses].classType, tempInput);
-							}
-							else if(lineChecker == 3) {
-								strcpy(classArray[numClasses].classLoc, tempInput);
-							}
-							lineChecker++;
+					classArray = malloc(sizeof(classInfo));	// Initial malloc 
+
+					if(fgets(tempInput, 100, timetableDataFP) == NULL) {
+							printf("\nIMPORT ERROR | Check 'timetableData.txt' to make sure your class info is there!\n\n");
+							loopMenu2 = true;
 						}
-						printf("Class: %s Type: %s Loc: %s\n", classArray[numClasses].classCode, classArray[numClasses].classType, classArray[numClasses].classLoc);						lineChecker = 1;
-						numClasses++;
+
+					while(fgets(tempInput, 100, timetableDataFP) != NULL && strcmp(tempInput, " \n") != 0) { // Stop input from file right after last class in file
+						
+						classArray = realloc(classArray, sizeof(classInfo) * numClasses); // Realloc for however many stucts (classes) there will be
+						removeNewline(tempInput);
+						
+						if(lineChecker == 1) {							// Store each individual line in appropriate spot in struct
+							strcpy(classArray->classCode, tempInput);
+						}
+						else if(lineChecker == 2) {
+							strcpy(classArray->classType, tempInput);
+						}
+						else if(lineChecker == 3) {
+							strcpy(classArray->classLoc, tempInput);
+						}
+
+						lineChecker++;			// Count up here so check can happen right after without getting another input line
+						if(lineChecker == 4) {	// Because lineChecker counts up one last time, check when 4
+							numClasses++;		// Number of structs in struct array
+							lineChecker = 1;	// Reset the counter to put input in correct spot in struct
+						
+						}
 					}
+
+					printf("\nClass Import Success!\n\n");
+					validClasses = true;
+
 					loopMenu2 = false;
+					free(classArray);
+					fclose(timetableDataFP);
+
 				}
 				else {
 					printf("Invalid Option! Try Again.\n");
@@ -109,7 +127,7 @@ int main(void)
 		}
 		else if(strcmp(menuInput, "Generate") == 0) {
 			if(validClasses == false) {
-				printf("You must import your timetable before generating a code!\n");
+				printf("\nYou must import your timetable before generating a code!\n\n");
 			}
 			else {
 				// Do code generation stuffs with some fancy algorithm
@@ -127,7 +145,7 @@ int main(void)
 			loopMenu = false;
 		}
 		else {
-			printf("Invalid Option! Try Again.\n");
+			printf("Invalid Option! Try Again.\n\n");
 		}
 	}
 
