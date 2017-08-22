@@ -18,7 +18,9 @@ int main(void)
 	} classInfo;
 
 	// Variable Decleration
-	int numClasses = 1;
+	size_t numClasses = 1;
+	size_t goodClasses = 0;
+
 	int lineChecker = 1;
 
 	char menuInput[100];
@@ -26,13 +28,16 @@ int main(void)
 	char importMenu[100];
 	char tempInput[100] = "NULL";
 
-	classInfo *classArray;
+	classInfo *classArray = NULL;
+	classInfo *sortedArray = NULL;
+	classInfo tempStruct;
 
 	FILE *timetableDataFP = NULL;
 
 	bool validClasses = false;
 	bool loopMenu = true;
 	bool loopMenu2 = true;
+	bool uniqueClass = true;
 
 	printf("\nWelcome to the Guelph Class Checker!\n");
 	printf("This program will determine if you have any classes with a peer!\n\n");
@@ -78,43 +83,73 @@ int main(void)
 
 				}	
 				else if(strcmp(importMenu, "Ready") == 0) {
-										
+					
+					validClasses = false;								// Resetting the valid classes bool every import 			
 					timetableDataFP = fopen("timetableData.txt", "r");
-					fseek(timetableDataFP, 21, SEEK_SET);	// Seeking to where the class codes start. Will be the same for every paste.
-					classArray = malloc(sizeof(classInfo));	// Initial malloc 
+					fseek(timetableDataFP, 20, SEEK_SET);				// Seeking to where the class codes start. Will be the same for every paste.
 
 					if(fgets(tempInput, 100, timetableDataFP) == NULL) {
 							printf("\nIMPORT ERROR | Check 'timetableData.txt' to make sure your class info is there!\n\n");
-							loopMenu2 = true;
+							loopMenu2 = false;
 						}
 
-					while(fgets(tempInput, 100, timetableDataFP) != NULL && strcmp(tempInput, " \n") != 0) { // Stop input from file right after last class in file
+					classArray = NULL;		// Resetting class struct array every import
+					while(fgets(tempInput, 100, timetableDataFP) != NULL && strcmp(tempInput, " \n") != 0) { 	// Stop input from file right after last class in file
 						
-						classArray = realloc(classArray, sizeof(classInfo) * numClasses); // Realloc for however many stucts (classes) there will be
+						classArray = realloc(classArray, sizeof(classInfo) * numClasses); 						// Realloc for however many stucts (classes) there will be
 						removeNewline(tempInput);
 						
 						if(lineChecker == 1) {							// Store each individual line in appropriate spot in struct
-							strcpy(classArray->classCode, tempInput);
+							strcpy(tempStruct.classCode, tempInput);
 						}
 						else if(lineChecker == 2) {
-							strcpy(classArray->classType, tempInput);
+							strcpy(tempStruct.classType, tempInput);
 						}
 						else if(lineChecker == 3) {
-							strcpy(classArray->classLoc, tempInput);
+							strcpy(tempStruct.classLoc, tempInput);
 						}
 
-						lineChecker++;			// Count up here so check can happen right after without getting another input line
-						if(lineChecker == 4) {	// Because lineChecker counts up one last time, check when 4
-							numClasses++;		// Number of structs in struct array
-							lineChecker = 1;	// Reset the counter to put input in correct spot in struct
+						lineChecker++;									// Count up here so check can happen right after without getting another input line
+						if(lineChecker == 4) {							// Because lineChecker counts up one last time, check when 4
+							classArray[numClasses - 1] = tempStruct;	// Write tempStruct into struct array
+							numClasses++;								// Number of structs in struct array
+							lineChecker = 1;							// Reset the counter to put input in correct spot in struct
 						
 						}
 					}
 
-					printf("\nClass Import Success!\n\n");
-					validClasses = true;
+					if(loopMenu2 == true) {
+						printf("\nClass Import Success!\n\n");
+						validClasses = true;							// Bool set for code generation
 
-					loopMenu2 = false;
+																		// *** Removing Duplicate Classes ***
+						goodClasses = 1;								// n-1 Number of elements in sorted array
+						sortedArray = malloc(sizeof(classInfo));		// Initial malloc for first element
+						sortedArray[0] = classArray[0];					// Get first entry as a starting point to check
+						for(int j = 1; j < numClasses - 1; j++) {		// 1 (second element in struct array) j starts at 0, but skips 1st
+							for(int k = 0; k < goodClasses; k++) { 		// 1 (first element) k is starting at 1
+								uniqueClass = true;						// Reset unique class check after checking with each class in sorted array
+								if(strcmp(classArray[j].classCode, sortedArray[k].classCode) == 0) {		// Checking class name
+									if(strcmp(classArray[j].classType, sortedArray[k].classType) == 0) {	// Checking class type
+										uniqueClass = false;			// If class is exactly the same, do not add. Anything else add
+									}
+								}
+							}
+							if(uniqueClass == true) {					// If class is unique, create space and add to sorted array
+								goodClasses++;
+								sortedArray = realloc(sortedArray, sizeof(classInfo) * goodClasses);
+								sortedArray[goodClasses - 1] = classArray[j];
+							}
+						}
+
+						printf("Test Print Structs\n");
+						for(int i = 0; i < goodClasses; i++) {
+							printf("Class: %s - Type: %s - Room: %s\n\n", sortedArray[i].classCode, sortedArray[i].classType, sortedArray[i].classLoc);
+						}
+
+						loopMenu2 = false;
+					}
+
 					free(classArray);
 					fclose(timetableDataFP);
 
