@@ -22,10 +22,12 @@ int main(void)
 	size_t goodClasses = 0;
 
 	int lineChecker = 1;
+	int classNameLen = 0;
+	int starCounter = 0;
 
-	char menuInput[100];
-	char enterCode[100];
-	char importMenu[100];
+	char menuInput[100] = "NULL";
+	char enterCode[100] = "NULL";
+	char importMenu[100] = "NULL";
 	char tempInput[100] = "NULL";
 
 	classInfo *classArray = NULL;
@@ -33,6 +35,7 @@ int main(void)
 	classInfo tempStruct;
 
 	FILE *timetableDataFP = NULL;
+	FILE *classDesc = NULL;
 
 	bool validClasses = false;
 	bool loopMenu = true;
@@ -89,9 +92,9 @@ int main(void)
 					fseek(timetableDataFP, 20, SEEK_SET);				// Seeking to where the class codes start. Will be the same for every paste.
 
 					if(fgets(tempInput, 100, timetableDataFP) == NULL) {
-							printf("\nIMPORT ERROR | Check 'timetableData.txt' to make sure your class info is there!\n\n");
-							loopMenu2 = false;
-						}
+						printf("\nIMPORT ERROR | Check 'timetableData.txt' to make sure your class info is there!\n\n");
+						loopMenu2 = false;
+					}
 
 					classArray = NULL;		// Resetting class struct array every import
 					while(fgets(tempInput, 100, timetableDataFP) != NULL && strcmp(tempInput, " \n") != 0) { 	// Stop input from file right after last class in file
@@ -142,17 +145,46 @@ int main(void)
 							}
 						}
 
-						printf("Test Print Structs\n");
-						for(int i = 0; i < goodClasses; i++) {
-							printf("Class: %s - Type: %s - Room: %s\n\n", sortedArray[i].classCode, sortedArray[i].classType, sortedArray[i].classLoc);
-						}
+						// DELETE CLASS PRINTS AFTER
+						// printf("Test Print Structs\n");
+						// for(int i = 0; i < goodClasses; i++) {
+						// 	printf("Class: %s - Type: %s - Room: %s\n\n", sortedArray[i].classCode, sortedArray[i].classType, sortedArray[i].classLoc);
+						// }
 
-						loopMenu2 = false;
 					}
 
 					free(classArray);
 					fclose(timetableDataFP);
 
+					classDesc = fopen("courseList.txt", "r");
+					if(classDesc == NULL) {
+						printf("'courseList.txt' seems to be missing! Redownload the application!\n\n");
+						loopMenu2 = false;
+					}
+					else {
+						printf("Here are your classes: \n\n");
+						for(int i = 0; i < goodClasses; i++) {
+							
+							starCounter = 0;
+							classNameLen = 0;
+							for(int x = 0; x < strlen(sortedArray[i].classCode); x++) {
+								if(sortedArray[i].classCode[x] == '*') {
+									starCounter++;
+								}
+								if(starCounter == 2) {
+									classNameLen = x;
+									break;
+								}
+							}
+							printf("%d\n", classNameLen);
+
+							printf("Class: %s - Type: %s - Room: %s\n\n", sortedArray[i].classCode, sortedArray[i].classType, sortedArray[i].classLoc);
+						}
+					}
+
+					loopMenu2 = false;
+
+					fclose(classDesc);
 				}
 				else {
 					printf("Invalid Option! Try Again.\n");
