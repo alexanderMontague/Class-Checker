@@ -29,18 +29,21 @@ int main(void)
 	char enterCode[100] = "NULL";
 	char importMenu[100] = "NULL";
 	char tempInput[100] = "NULL";
+	char searchInput[100] = "NULL";
+	char searchInput2[100] = "NULL";
 
 	classInfo *classArray = NULL;
 	classInfo *sortedArray = NULL;
 	classInfo tempStruct;
 
 	FILE *timetableDataFP = NULL;
-	FILE *classDesc = NULL;
+	FILE *classDescFP = NULL;
 
 	bool validClasses = false;
 	bool loopMenu = true;
 	bool loopMenu2 = true;
 	bool uniqueClass = true;
+	bool descSearch = true;
 
 	printf("\nWelcome to the Guelph Class Checker!\n");
 	printf("This program will determine if you have any classes with a peer!\n\n");
@@ -156,15 +159,14 @@ int main(void)
 					free(classArray);
 					fclose(timetableDataFP);
 
-					classDesc = fopen("courseList.txt", "r");
-					if(classDesc == NULL) {
+					classDescFP = fopen("courseList.txt", "r");
+					if(classDescFP == NULL) {
 						printf("'courseList.txt' seems to be missing! Redownload the application!\n\n");
 						loopMenu2 = false;
 					}
 					else {
 						printf("Here are your classes: \n\n");
 						for(int i = 0; i < goodClasses; i++) {
-							
 							starCounter = 0;
 							classNameLen = 0;
 							for(int x = 0; x < strlen(sortedArray[i].classCode); x++) {
@@ -176,15 +178,26 @@ int main(void)
 									break;
 								}
 							}
-							printf("%d\n", classNameLen);
-
-							printf("Class: %s - Type: %s - Room: %s\n\n", sortedArray[i].classCode, sortedArray[i].classType, sortedArray[i].classLoc);
+							while(descSearch == true) {
+								fgets(tempInput, 150, classDescFP);
+								for(int z = 0; z < classNameLen; z++) {
+									searchInput[z] = tempInput[z];					// Shortening input from file
+									searchInput2[z] = sortedArray[i].classCode[z];	// Shortening input from struct to match
+								}
+								//printf("temp: %s - real: %s\n", searchInput, searchInput2);
+								if(strcmp(searchInput2, searchInput) == 0) {
+									descSearch = false;
+									fseek(classDescFP, 0, SEEK_SET);
+								}
+							}
+							descSearch = true;
+							printf("Class: %s - Type: %s - Room: %s Description - %s\n\n", sortedArray[i].classCode, sortedArray[i].classType, sortedArray[i].classLoc, tempInput);
 						}
 					}
 
 					loopMenu2 = false;
 
-					fclose(classDesc);
+					fclose(classDescFP);
 				}
 				else {
 					printf("Invalid Option! Try Again.\n");
