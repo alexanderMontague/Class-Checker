@@ -18,12 +18,15 @@ int main(void)
 	} classInfo;
 
 	// Variable Decleration
-	size_t numClasses = 1;
+	size_t numClasses = 0;
 	size_t goodClasses = 0;
+	size_t totalClassCodes = 0;
+	size_t totalGoodClassCodes = 0;
 
 	int lineChecker = 1;
 	int classNameLen = 0;
 	int starCounter = 0;
+	int starCounter2 = 0;
 
 	char menuInput[100] = "NULL";
 	char enterCode[100] = "NULL";
@@ -31,6 +34,15 @@ int main(void)
 	char tempInput[100] = "NULL";
 	char searchInput[100] = "NULL";
 	char searchInput2[100] = "NULL";
+	char classDesc[100] = "NULL";
+	char tempClassCode[100] = "NULL";
+	char specificCode[100];
+	char generatedCode[100] = "NULL";
+
+	char **onlyClassCode = NULL;
+	char **onlyClassCode2 = NULL;
+	char **goodClassCodeP1 = NULL;
+	char **goodClassCodeP2 = NULL;
 
 	classInfo *classArray = NULL;
 	classInfo *sortedArray = NULL;
@@ -44,6 +56,7 @@ int main(void)
 	bool loopMenu2 = true;
 	bool uniqueClass = true;
 	bool descSearch = true;
+	bool secondRun = false;
 
 	printf("\nWelcome to the Guelph Class Checker!\n");
 	printf("This program will determine if you have any classes with a peer!\n\n");
@@ -54,9 +67,15 @@ int main(void)
 		printf("'Generate' - Generate a shareable code that you can give to others to check classes you have together\n");
 		printf("'Enter' - Enter a friend's generated code to see what classes you have!\n");
 		printf("'Exit' - Exit the program\n");
-		printf("Would you like to: ");
+		printf("What would you like to do?: ");
 		fgets(menuInput, sizeof(menuInput), stdin);
 		removeNewline(menuInput);
+
+		if(secondRun == true && strcmp(menuInput, "Import") == 0) {
+			printf("\n\nYou have already imported your classes successfully!\n");
+			printf("If you want to change users and class data, please run the program again.\n\n\n");
+			strcpy(menuInput, "RUN2");
+		}
 
 		if(strcmp(menuInput, "Import") == 0) {
 
@@ -99,9 +118,9 @@ int main(void)
 						loopMenu2 = false;
 					}
 
-					classArray = NULL;		// Resetting class struct array every import
+					classArray = NULL;									// Resetting class struct array every import
+					numClasses = 1;
 					while(fgets(tempInput, 100, timetableDataFP) != NULL && strcmp(tempInput, " \n") != 0) { 	// Stop input from file right after last class in file
-						
 						classArray = realloc(classArray, sizeof(classInfo) * numClasses); 						// Realloc for however many stucts (classes) there will be
 						removeNewline(tempInput);
 						
@@ -120,12 +139,11 @@ int main(void)
 							classArray[numClasses - 1] = tempStruct;	// Write tempStruct into struct array
 							numClasses++;								// Number of structs in struct array
 							lineChecker = 1;							// Reset the counter to put input in correct spot in struct
-						
 						}
 					}
 
 					if(loopMenu2 == true) {
-						printf("\nClass Import Success!\n\n");
+						printf("\nClass Import Success!\n");
 						validClasses = true;							// Bool set for code generation
 
 																		// *** Removing Duplicate Classes ***
@@ -147,13 +165,6 @@ int main(void)
 								sortedArray[goodClasses - 1] = classArray[j];
 							}
 						}
-
-						// DELETE CLASS PRINTS AFTER
-						// printf("Test Print Structs\n");
-						// for(int i = 0; i < goodClasses; i++) {
-						// 	printf("Class: %s - Type: %s - Room: %s\n\n", sortedArray[i].classCode, sortedArray[i].classType, sortedArray[i].classLoc);
-						// }
-
 					}
 
 					free(classArray);
@@ -165,38 +176,42 @@ int main(void)
 						loopMenu2 = false;
 					}
 					else {
-						printf("Here are your classes: \n\n");
-						for(int i = 0; i < goodClasses; i++) {
-							starCounter = 0;
-							classNameLen = 0;
-							for(int x = 0; x < strlen(sortedArray[i].classCode); x++) {
-								if(sortedArray[i].classCode[x] == '*') {
+						printf("Here are your classes: \n\n");								// *** Formatting and Displaying classes and their descriptions from file *** 
+						for(int i = 0; i < goodClasses; i++) {								// Going through every class code
+							starCounter = 0;												// Resetting asterisk counter
+							classNameLen = 0;												// Resetting the class length counter
+							for(int x = 0; x < strlen(sortedArray[i].classCode); x++) {		// Going through each character in the class codes
+								if(sortedArray[i].classCode[x] == '*') {					// If an asterisk is found, add to star counter
 									starCounter++;
 								}
-								if(starCounter == 2) {
+								if(starCounter == 2) {										// Check right after if the second star has been found, and if it has, break out of the character search loop
 									classNameLen = x;
 									break;
 								}
 							}
-							while(descSearch == true) {
-								fgets(tempInput, 150, classDescFP);
-								for(int z = 0; z < classNameLen; z++) {
-									searchInput[z] = tempInput[z];					// Shortening input from file
-									searchInput2[z] = sortedArray[i].classCode[z];	// Shortening input from struct to match
+							descSearch = true;												// Reset the description dearch bool back to true for the next search
+							while(descSearch == true) {										// Searching the class description list to grab the descriptions we need
+								fgets(tempInput, 150, classDescFP);							// Reading in every line, line by line from the class description file
+								for(int z = 0; z < classNameLen; z++) {												
+									searchInput[z] = tempInput[z];							// Getting right length class code from description file 
+									searchInput2[z] = sortedArray[i].classCode[z];			// Getting right length class code from the class code section of the struct
 								}
-								//printf("temp: %s - real: %s\n", searchInput, searchInput2);
-								if(strcmp(searchInput2, searchInput) == 0) {
-									descSearch = false;
-									fseek(classDescFP, 0, SEEK_SET);
+								if(strcmp(searchInput2, searchInput) == 0) {				// If both the class codes match, get only the description portion into a variable
+									descSearch = false;										// Reset the description search bool back for the next class
+									fseek(classDescFP, 0, SEEK_SET);						// Seek back to the start of the description file for the next class search.
+									for(int y = classNameLen + 1; y <= strlen(tempInput); y++) {
+										classDesc[y - (classNameLen + 1)] = tempInput[y];	// Set only the description portion of the input to a new variable for output
+									}
 								}
 							}
-							descSearch = true;
-							printf("Class: %s - Type: %s - Room: %s Description - %s\n\n", sortedArray[i].classCode, sortedArray[i].classType, sortedArray[i].classLoc, tempInput);
+							printf("%s - %sType: %s       Room: %s\n\n", sortedArray[i].classCode, classDesc, sortedArray[i].classType, sortedArray[i].classLoc);
 						}
 					}
 
+					secondRun = true;
 					loopMenu2 = false;
 
+					classArray = NULL;
 					fclose(classDescFP);
 				}
 				else {
@@ -210,7 +225,66 @@ int main(void)
 				printf("\nYou must import your timetable before generating a code!\n\n");
 			}
 			else {
-				// Do code generation stuffs with some fancy algorithm
+
+				onlyClassCode = malloc(goodClasses * sizeof(char *));			// Allocating number of spots in array for first portion of class code
+				onlyClassCode2 = malloc(goodClasses * sizeof(char *));			// Allocating number of spots in array for second portion of class code
+
+				for(int a = 0; a < goodClasses; a++) {									// First loop goes through whole portion class code
+					onlyClassCode[a] = malloc(strlen(sortedArray[a].classCode) + 1);	// Allocating room for each char of first portion of class code
+					starCounter2 = 0;													// Second star counter, same system as above
+					for(int b = 0; b < strlen(sortedArray[a].classCode); b++) {			// Goes through each character in the entire class code string
+						if(sortedArray[a].classCode[b] == '*') {						// If an asterisk is found, add to star counter
+							starCounter2++;												
+							if(starCounter2 == 2) {
+								size_t d = 0;											// New variable to hold characters after the second asterisk
+								for(int c = b + 1; c < (b + (strlen(sortedArray[a].classCode) - b)); c++) {		// Start the loop at the first char after the second asterisk, and stop when string runs out
+									specificCode[d] = sortedArray[a].classCode[c];								// Transferring characters from after the second asterisk to a new variable
+									d++;
+								}
+								onlyClassCode2[a] = malloc(strlen(specificCode) + 1);							// Allocating for each character per each element for the string after the second asterisk
+								strcpy(onlyClassCode2[a], specificCode);
+								break;
+							}
+							else {
+								tempClassCode[b] = sortedArray[a].classCode[b];									// Transferring characters before second asterisk to a new variable in an array only if it is before the second asterisk
+							}
+						}
+						else {
+							tempClassCode[b] = sortedArray[a].classCode[b];										// Same as ^. Just when char is not an asterisk
+						}
+					}
+
+					strcpy(onlyClassCode[a], tempClassCode);
+					printf("%s %s\n", onlyClassCode[a], onlyClassCode2[a]);
+				}
+					totalGoodClassCodes = 1;
+					goodClassCodeP1 = malloc(sizeof(char *));		
+					goodClassCodeP1[0] = malloc(strlen(onlyClassCode[0]) + 1);
+					goodClassCodeP1[0] = onlyClassCode[0];					
+					for(int j = 1; j < goodClasses + 1; j++) {		// OUTSIDE LOOP NOT SORTED CLASSES	
+						uniqueClass = true;
+						for(int i = 0; i < totalGoodClassCodes; i++) {		// INSIDE SORTED CLASSES
+							if(strcmp(onlyClassCode[j], goodClassCodeP1[i]) == 0) {
+								uniqueClass = false;
+								printf("made it in\n");
+							}
+						}
+						if(uniqueClass == true) {
+							totalGoodClassCodes++;
+							goodClassCodeP1 = realloc(goodClassCodeP1, sizeof(char *) * totalGoodClassCodes);		// Initial malloc for first element
+							goodClassCodeP1[j] = realloc(goodClassCodeP1, strlen(onlyClassCode[j]) + 1);
+							goodClassCodeP1[j] = onlyClassCode[j];
+						}
+					}
+
+					for(int fuk = 0; fuk < totalGoodClassCodes; fuk++) {
+						printf("%s\n", goodClassCodeP1[fuk]);
+					}
+
+				
+				free(sortedArray);
+				sortedArray = NULL;
+				// FREE EVERYTHING
 			}
 		}
 		else if(strcmp(menuInput, "Enter") == 0) {
@@ -223,6 +297,9 @@ int main(void)
 		}
 		else if(strcmp(menuInput, "Exit") == 0) {
 			loopMenu = false;
+		}
+		else if(strcmp(menuInput, "RUN2") == 0) {
+			// Do nothing and go back to menu
 		}
 		else {
 			printf("Invalid Option! Try Again.\n\n");
